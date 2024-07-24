@@ -3,7 +3,6 @@ import { TypeOrmModule } from '@nestjs/typeorm';
 import { Appliance } from './entities/appliance.entity';
 import { Company } from './entities/company.entity';
 import { Job } from './entities/job.entity';
-console.log('process', process.env.DB_USERNAME);
 
 @Module({
   imports: [
